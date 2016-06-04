@@ -9,6 +9,5 @@ for line in sys.stdin:
         elif i % 2 == 1:
             line = line.replace("\"", "\'\'",1)
         i += 1
-    if ( line != ""):
-        s += line
+    s += line
 print(s)    
