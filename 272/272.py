@@ -1,5 +1,4 @@
 import sys
-counter_closed_tick = False
 s = ""
 i = 0
 for line in sys.stdin:
@@ -10,4 +9,4 @@ for line in sys.stdin:
             line = line.replace("\"", "\'\'",1)
         i += 1
     s += line
-print(s)    
+print(s)
